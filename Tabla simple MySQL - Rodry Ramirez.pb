@@ -55,8 +55,6 @@ EndProcedure
 
 OpenWindow(#ventana_principal, 0, 0, 470, 570, "Lista de Clientes en base de datos", #PB_Window_SystemMenu | #PB_Window_ScreenCentered)
 CreateMenu(#PB_Any,WindowID(#ventana_principal))
-MenuTitle("Menu")
-MenuItem(#debug_lista,"Listado de clientes")
 TextGadget(#PB_Any, 0, 10, 470, 25, "Lista Clientes", #PB_Text_Center)
 ListIconGadget(#lista_vista, 10, 80, 450, 310, "DNI", 100)
 TextGadget(#PB_Any, 30, 50, 100, 25, "Ordenar por:")
